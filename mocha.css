@@ -1,0 +1,95 @@
+body {
+    font-family: "CaskaydiaCove Nerd Font";
+}
+
+/* Other customize */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    background-color: transparent;
+    position: absolute;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #6c6f85; /* Subtext0 */
+  border-radius: 6px;
+}
+
+/* Dark Mode */
+/* Uncomment one only for dark mode, default is mocha */
+/* Mocha */
+html.themeDark {
+    /* Text Colors */
+    --color-text-primary: #cdd6f4; /* Text */
+    --color-text-secondary: #bac2de; /* Subtext1 */
+    --color-text-tertiary: #a6adc8; /* Subtext0 */
+
+    --color-text-inversion: #11111b; /* Crust */
+
+    /* Shape */
+    --color-shape-primary: #6c7086; /* Overlay0 */
+    --color-shape-secondary: #45475a; /* Surface1 */
+    --color-shape-tertiary: #313244; /* Surface0 */
+    --color-shape-primary-inversion: #7f849c;
+    --color-shape-secondary-inversion: #9399b2;
+    --color-shape-tertiary-inversion: #a6adc8;
+
+    --color-shape-highlight-medium: rgba(92, 95, 119, 0.12); /* Subtext1 with opacity */
+    --color-shape-highlight-light: rgba(92, 95, 119, 0.06); /* Subtext1 with lower opacity */
+    --color-shape-highlight-light-solid: #1e1e2e; /* Base */
+
+    /* Control */
+    --color-control-accent: #a6e3a1; /* Green */
+    --color-control-active: #a6adc8; /* Subtext0 */
+    --color-control-inactive: #585b70; /* Surface2 */
+    --color-control-bg: #ffffff; /* White */
+
+    /* Background */
+    --color-bg-primary: #181825; /* Mantle */
+    --color-bg-secondary: #1e1e2e; /* Base */
+    --color-bg-tertiary: #45475a; /* Surface1 */
+    --color-bg-loader: rgba(17, 17, 27, 0.7); /* Crust with opacity */
+
+    /* System */
+    --color-system-accent-125: #89b4fa;
+    --color-system-accent-100: #89b4fa;
+    --color-system-accent-50: #89b4fa; /* Red */
+    --color-system-accent-25: #74c7ec; /* Peach */
+    --color-system-selection: rgb(137, 180, 250, 0.5); /* Blue with opacity */
+
+    --color-rosewater: #f5e0dc;
+    --color-flamingo: #f2cdcd;
+    --color-pink: #f5c2e7;
+    --color-mauve: #cba6f7;
+    --color-red: #f38ba8;
+    --color-maroon: #eba0ac;
+    --color-peach: #fab387;
+    --color-yellow: #f9e2af;
+    --color-green: #a6e3a1;
+    --color-teal: #94e2d5;
+    --color-sky: #89dceb;
+    --color-sapphire: #74c7ec;
+    --color-blue: #89b4fa;
+    --color-lavender: #b4befe;
+    --color-text: #cdd6f4;
+    --color-subtext1: #bac2de;
+    --color-subtext0: #a6adc8;
+    --color-overlay2: #9399b2;
+    --color-overlay1: #7f849c;
+    --color-overlay0: #6c7086;
+    --color-surface2: #585b70;
+    --color-surface1: #45475a;
+    --color-surface0: #313244;
+    --color-base: #1e1e2e;
+    --color-mantle: #181825;
+    --color-crust: #11111b;
+    .vault {
+        background-color: var(--color-bg-primary);
+    }
+    
+
+    ::-webkit-scrollbar-thumb {
+        background-color: #a6adc8; /* Subtext0 */
+    }
+  }
+
